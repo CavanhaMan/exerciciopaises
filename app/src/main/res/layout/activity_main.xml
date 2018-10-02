@@ -14,7 +14,7 @@
 
         <!-- PRIMEIRO PAIS 0 1 2-->
         <TextView
-            style="@style/texto"
+            style="@style/titulo"
             android:layout_row="0"
             android:layout_column="0"
             android:text="Rank: 1" />
@@ -42,7 +42,7 @@
         <TextView
             android:layout_row="3"
             android:layout_column="0"
-            style="@style/texto"
+            style="@style/titulo"
             android:text="Rank: 2" />
 
         <TextView
@@ -68,7 +68,7 @@
         <TextView
             android:layout_row="6"
             android:layout_column="0"
-            style="@style/texto"
+            style="@style/titulo"
             android:text="Rank: 3" />
 
         <TextView
@@ -94,7 +94,7 @@
         <TextView
             android:layout_row="9"
             android:layout_column="0"
-            style="@style/texto"
+            style="@style/titulo"
             android:text="Rank: 4" />
 
         <TextView
@@ -121,7 +121,7 @@
         <TextView
             android:layout_row="12"
             android:layout_column="0"
-            style="@style/texto"
+            style="@style/titulo"
             android:text="Rank: 5" />
 
         <TextView
@@ -147,7 +147,7 @@
         <TextView
             android:layout_row="15"
             android:layout_column="0"
-            style="@style/texto"
+            style="@style/titulo"
             android:text="Rank: 6" />
 
         <TextView
@@ -173,7 +173,7 @@
         <TextView
             android:layout_row="18"
             android:layout_column="0"
-            style="@style/texto"
+            style="@style/titulo"
             android:text="Rank: 7" />
 
         <TextView
@@ -199,7 +199,7 @@
         <TextView
             android:layout_row="21"
             android:layout_column="0"
-            style="@style/texto"
+            style="@style/titulo"
             android:text="Rank: 8" />
 
         <TextView
@@ -225,7 +225,7 @@
         <TextView
             android:layout_row="24"
             android:layout_column="0"
-            style="@style/texto"
+            style="@style/titulo"
             android:text="Rank: 9" />
 
         <TextView
@@ -251,7 +251,7 @@
         <TextView
             android:layout_row="27"
             android:layout_column="0"
-            style="@style/texto"
+            style="@style/titulo"
             android:text="Rank: 10" />
 
         <TextView
