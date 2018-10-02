@@ -1,330 +1,277 @@
 <?xml version="1.0" encoding="utf-8"?>
-<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:columnCount="2"
     tools:context=".MainActivity">
 
-    <!-- PRIMEIRO PAIS 0 1 2-->
-    <TextView
-        android:layout_row="0"
-        android:layout_column="0"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Rank: 1" />
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnCount="2"
+        tools:context=".MainActivity">
 
-    <TextView
-        android:layout_row="1"
-        android:layout_column="0"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Country: China" />
+        <!-- PRIMEIRO PAIS 0 1 2-->
+        <TextView
+            style="@style/texto"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:text="Rank: 1" />
 
-    <TextView
-        android:layout_row="2"
-        android:layout_column="0"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/popchina" />
+        <TextView
+            android:layout_row="1"
+            android:layout_column="0"
+            style="@style/texto"
+            android:text="Country: China" />
 
-    <ImageView
-        android:layout_row="0"
-        android:layout_column="1"
-        android:layout_rowSpan="3"
-        android:layout_gravity="end"
-        android:id="@+id/imgchina"
-        android:layout_width = "100dp"
-        android:layout_height= "60dp"
-        app:srcCompat="@drawable/bdchina" />
+        <TextView
+            android:layout_row="2"
+            android:layout_column="0"
+            style="@style/texto"
+            android:text="@string/popchina" />
 
-    <!-- SEGUNDO PAIS 3 4 5-->
-    <TextView
-        android:layout_row="3"
-        android:layout_column="0"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Rank: 2" />
+        <ImageView
+            style="@style/bandeira"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:id="@+id/imgchina"
+            app:srcCompat="@drawable/bdchina" />
 
-    <TextView
-        android:layout_row="4"
-        android:layout_column="0"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Country: Índia" />
+        <!-- SEGUNDO PAIS 3 4 5-->
+        <TextView
+            android:layout_row="3"
+            android:layout_column="0"
+            style="@style/texto"
+            android:text="Rank: 2" />
 
-    <TextView
-        android:layout_row="5"
-        android:layout_column="0"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/popindia" />
+        <TextView
+            android:layout_row="4"
+            android:layout_column="0"
+            style="@style/texto"
+            android:text="Country: Índia" />
 
-    <ImageView
-        android:layout_row="3"
-        android:layout_column="1"
-        android:layout_rowSpan="3"
-        android:layout_gravity="end"
-        android:id="@+id/imgindia"
-        android:layout_width = "100dp"
-        android:layout_height= "60dp"
-        app:srcCompat="@drawable/bdindia" />
+        <TextView
+            android:layout_row="5"
+            android:layout_column="0"
+            style="@style/texto"
+            android:text="@string/popindia" />
 
-    <!-- TERCEIRO PAIS 6 7 8-->
-    <TextView
-        android:layout_row="6"
-        android:layout_column="0"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Rank: 3" />
+        <ImageView
+            style="@style/bandeira"
+            android:layout_row="3"
+            android:layout_column="1"
+            android:id="@+id/imgindia"
+            app:srcCompat="@drawable/bdindia" />
 
-    <TextView
-        android:layout_row="7"
-        android:layout_column="0"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Country: EUA" />
+        <!-- TERCEIRO PAIS 6 7 8-->
+        <TextView
+            android:layout_row="6"
+            android:layout_column="0"
+            style="@style/texto"
+            android:text="Rank: 3" />
 
-    <TextView
-        android:layout_row="8"
-        android:layout_column="0"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/popeua" />
+        <TextView
+            android:layout_row="7"
+            android:layout_column="0"
+            style="@style/texto"
+            android:text="Country: EUA" />
 
-    <ImageView
-        android:layout_row="6"
-        android:layout_column="1"
-        android:layout_rowSpan="3"
-        android:layout_gravity="end"
-        android:id="@+id/imgeua"
-        android:layout_width = "100dp"
-        android:layout_height= "60dp"
-        app:srcCompat="@drawable/bdeua" />
+        <TextView
+            android:layout_row="8"
+            android:layout_column="0"
+            style="@style/texto"
+            android:text="@string/popeua" />
 
-    <!-- QUARTO PAIS 9 10 11-->
-    <TextView
-        android:layout_row="9"
-        android:layout_column="0"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Rank: 4" />
+        <ImageView
+            style="@style/bandeira"
+            android:layout_row="6"
+            android:layout_column="1"
+            android:id="@+id/imgeua"
+            app:srcCompat="@drawable/bdeua" />
 
-    <TextView
-        android:layout_row="10"
-        android:layout_column="0"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Country: Indonésia" />
+        <!-- QUARTO PAIS 9 10 11-->
+        <TextView
+            android:layout_row="9"
+            android:layout_column="0"
+            style="@style/texto"
+            android:text="Rank: 4" />
 
-    <TextView
-        android:layout_row="11"
-        android:layout_column="0"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/popindonesia" />
+        <TextView
+            android:layout_row="10"
+            android:layout_column="0"
+            style="@style/texto"
+            android:text="Country: Indonésia" />
 
-    <ImageView
-        android:layout_row="9"
-        android:layout_column="1"
-        android:layout_rowSpan="3"
-        android:layout_gravity="end"
-        android:id="@+id/imgindonesia"
-        android:layout_width = "100dp"
-        android:layout_height= "60dp"
-        app:srcCompat="@drawable/bdindonesia" />
+        <TextView
+            android:layout_row="11"
+            android:layout_column="0"
+            style="@style/texto"
+            android:text="@string/popindonesia" />
 
-    <!-- QUINTO PAIS 12 13 14-->
-    <TextView
-        android:layout_row="12"
-        android:layout_column="0"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Rank: 5" />
+        <ImageView
+            style="@style/bandeira"
+            android:layout_row="9"
+            android:layout_column="1"
+            android:layout_gravity="end"
+            android:id="@+id/imgindonesia"
+            app:srcCompat="@drawable/bdindonesia" />
 
-    <TextView
-        android:layout_row="13"
-        android:layout_column="0"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Country: Brasil" />
+        <!-- QUINTO PAIS 12 13 14-->
+        <TextView
+            android:layout_row="12"
+            android:layout_column="0"
+            style="@style/texto"
+            android:text="Rank: 5" />
 
-    <TextView
-        android:layout_row="14"
-        android:layout_column="0"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/popbrasil" />
+        <TextView
+            android:layout_row="13"
+            android:layout_column="0"
+            style="@style/texto"
+            android:text="Country: Brasil" />
 
-    <ImageView
-        android:layout_row="12"
-        android:layout_column="1"
-        android:layout_rowSpan="3"
-        android:layout_gravity="end"
-        android:id="@+id/imgbrasil"
-        android:layout_width = "100dp"
-        android:layout_height= "60dp"
-        app:srcCompat="@drawable/bdbrasil" />
+        <TextView
+            android:layout_row="14"
+            android:layout_column="0"
+            style="@style/texto"
+            android:text="@string/popbrasil" />
 
-    <!-- SEXTO PAIS 15 16 17-->
-    <TextView
-        android:layout_row="15"
-        android:layout_column="0"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Rank: 6" />
+        <ImageView
+            style="@style/bandeira"
+            android:layout_row="12"
+            android:layout_column="1"
+            android:id="@+id/imgbrasil"
+            app:srcCompat="@drawable/bdbrasil" />
 
-    <TextView
-        android:layout_row="16"
-        android:layout_column="0"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Country: Paquistão" />
+        <!-- SEXTO PAIS 15 16 17-->
+        <TextView
+            android:layout_row="15"
+            android:layout_column="0"
+            style="@style/texto"
+            android:text="Rank: 6" />
 
-    <TextView
-        android:layout_row="17"
-        android:layout_column="0"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/poppaquistao" />
+        <TextView
+            android:layout_row="16"
+            android:layout_column="0"
+            style="@style/texto"
+            android:text="Country: Paquistão" />
 
-    <ImageView
-        android:layout_row="15"
-        android:layout_column="1"
-        android:layout_rowSpan="3"
-        android:layout_gravity="end"
-        android:id="@+id/imgpaquistao"
-        android:layout_width = "100dp"
-        android:layout_height= "60dp"
-        app:srcCompat="@drawable/bdpaquistao" />
+        <TextView
+            android:layout_row="17"
+            android:layout_column="0"
+            style="@style/texto"
+            android:text="@string/poppaquistao" />
 
-    <!-- SETIMO PAIS 18 19 20-->
-    <TextView
-        android:layout_row="18"
-        android:layout_column="0"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Rank: 7" />
+        <ImageView
+            style="@style/bandeira"
+            android:layout_row="15"
+            android:layout_column="1"
+            android:id="@+id/imgpaquistao"
+            app:srcCompat="@drawable/bdpaquistao" />
 
-    <TextView
-        android:layout_row="19"
-        android:layout_column="0"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Country: Nigéria" />
+        <!-- SETIMO PAIS 18 19 20-->
+        <TextView
+            android:layout_row="18"
+            android:layout_column="0"
+            style="@style/texto"
+            android:text="Rank: 7" />
 
-    <TextView
-        android:layout_row="20"
-        android:layout_column="0"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/popnigeria" />
+        <TextView
+            android:layout_row="19"
+            android:layout_column="0"
+            style="@style/texto"
+            android:text="Country: Nigéria" />
 
-    <ImageView
-        android:layout_row="18"
-        android:layout_column="1"
-        android:layout_rowSpan="3"
-        android:layout_gravity="end"
-        android:id="@+id/imgnigeria"
-        android:layout_width = "100dp"
-        android:layout_height= "60dp"
-        app:srcCompat="@drawable/bdnigeria" />
+        <TextView
+            android:layout_row="20"
+            android:layout_column="0"
+            style="@style/texto"
+            android:text="@string/popnigeria" />
 
-    <!-- OITAVO PAIS 21 22 23-->
-    <TextView
-        android:layout_row="21"
-        android:layout_column="0"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Rank: 8" />
+        <ImageView
+            style="@style/bandeira"
+            android:layout_row="18"
+            android:layout_column="1"
+            android:id="@+id/imgnigeria"
+            app:srcCompat="@drawable/bdnigeria" />
 
-    <TextView
-        android:layout_row="22"
-        android:layout_column="0"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Country: Bangladesh" />
+        <!-- OITAVO PAIS 21 22 23-->
+        <TextView
+            android:layout_row="21"
+            android:layout_column="0"
+            style="@style/texto"
+            android:text="Rank: 8" />
 
-    <TextView
-        android:layout_row="23"
-        android:layout_column="0"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/popbangladesh" />
+        <TextView
+            android:layout_row="22"
+            android:layout_column="0"
+            style="@style/texto"
+            android:text="Country: Bangladesh" />
 
-    <ImageView
-        android:layout_row="21"
-        android:layout_column="1"
-        android:layout_rowSpan="3"
-        android:layout_gravity="end"
-        android:id="@+id/imgbangladesh"
-        android:layout_width = "100dp"
-        android:layout_height= "60dp"
-        app:srcCompat="@drawable/bdbangladesh" />
+        <TextView
+            android:layout_row="23"
+            android:layout_column="0"
+            style="@style/texto"
+            android:text="@string/popbangladesh" />
 
-    <!-- NONO PAIS 24 25 26-->
-    <TextView
-        android:layout_row="24"
-        android:layout_column="0"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Rank: 9" />
+        <ImageView
+            style="@style/bandeira"
+            android:layout_row="21"
+            android:layout_column="1"
+            android:id="@+id/imgbangladesh"
+            app:srcCompat="@drawable/bdbangladesh" />
 
-    <TextView
-        android:layout_row="25"
-        android:layout_column="0"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Country: Russia" />
+        <!-- NONO PAIS 24 25 26-->
+        <TextView
+            android:layout_row="24"
+            android:layout_column="0"
+            style="@style/texto"
+            android:text="Rank: 9" />
 
-    <TextView
-        android:layout_row="26"
-        android:layout_column="0"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/poprussia" />
+        <TextView
+            android:layout_row="25"
+            android:layout_column="0"
+            style="@style/texto"
+            android:text="Country: Russia" />
 
-    <ImageView
-        android:layout_row="24"
-        android:layout_column="1"
-        android:layout_rowSpan="3"
-        android:layout_gravity="end"
-        android:id="@+id/imgrussia"
-        android:layout_width = "100dp"
-        android:layout_height= "60dp"
-        app:srcCompat="@drawable/bdrussia" />
+        <TextView
+            android:layout_row="26"
+            android:layout_column="0"
+            style="@style/texto"
+            android:text="@string/poprussia" />
 
-    <!-- DECIMO PAIS 27 28 29-->
-    <TextView
-        android:layout_row="27"
-        android:layout_column="0"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Rank: 10" />
+        <ImageView
+            style="@style/bandeira"
+            android:layout_row="24"
+            android:layout_column="1"
+            android:id="@+id/imgrussia"
+            app:srcCompat="@drawable/bdrussia" />
 
-    <TextView
-        android:layout_row="28"
-        android:layout_column="0"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Country: Japão" />
+        <!-- DECIMO PAIS 27 28 29-->
+        <TextView
+            android:layout_row="27"
+            android:layout_column="0"
+            style="@style/texto"
+            android:text="Rank: 10" />
 
-    <TextView
-        android:layout_row="29"
-        android:layout_column="0"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/popjapao" />
+        <TextView
+            android:layout_row="28"
+            android:layout_column="0"
+            style="@style/texto"
+            android:text="Country: Japão" />
 
-    <ImageView
-        android:layout_row="27"
-        android:layout_column="1"
-        android:layout_rowSpan="3"
-        android:layout_gravity="end"
-        android:id="@+id/imgjapao"
-        android:layout_width = "100dp"
-        android:layout_height= "60dp"
-        app:srcCompat="@drawable/bdjapao" />
+        <TextView
+            android:layout_row="29"
+            android:layout_column="0"
+            style="@style/texto"
+            android:text="@string/popjapao" />
 
-</GridLayout>
+        <ImageView
+            style="@style/bandeira"
+            android:layout_row="27"
+            android:layout_column="1"
+            android:id="@+id/imgjapao"
+            app:srcCompat="@drawable/bdjapao" />
+
+    </GridLayout>
+</ScrollView >
